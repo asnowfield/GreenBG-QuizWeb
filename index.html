@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta name=" viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>정말?&amp;퀴즈!</title>
+
+  <!-- SEO -->
+  <meta name="description" content="당신은! 얼마나 많은 지식을 기억하는가! 정말 재밌는 퀴즈를 알아보자~! 세상에서 가장 맛있는 음식은 뭘까?">
+  <meta name="keywords" content="퀴즈, 정말, 명지대, snowfield, 정보통신공학과, ICT, SW, Quiz">
+  <meta name="author" content="snowfield"">
+  <!-- 카톡 페이스북 SEO -->
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="정말? 퀴즈! Oh? Quiz!">
+  <meta property="og:description" content="당신은! 얼마나 많은 지식을 기억하는가! 정말 재밌는 퀴즈를 알아보자~! 세상에서 가장 맛있는 음식은 뭘까?">
+  <meta property="og:site_name" content="정말? 퀴즈! Oh? Quiz!">
+  <meta property="og:url" content="http://snowfield.cf">
+  <meta property="og:image" content="/images/Hamburger.png">
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="627" />
+  <!-- 트위터 SEO -->
+  <meta name="twitter:card" content="website">
+  <meta name="twitter:url" content="http://snowfield.cf/">
+  <meta name="twitter:title" content="정말? 퀴즈! Oh? Quiz!">
+  <meta name="twitter:description" content="당신은! 얼마나 많은 지식을 기억하는가! 정말 재밌는 퀴즈를 알아보자~! 세상에서 가장 맛있는 음식은 뭘까?">
+  <meta name="twitter:image" content="/images/Hamburger.png">
+
+  <link rel="icon" href="images/fevicon.png" type="image/png" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="/CSS/style.css" rel="stylesheet">
+  <link href="/CSS/game.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- 시계 -->
+  <div class="center">
+    <p id="clock" class="wrapper margin hud-prefix">00:00:00</p>
+    <!-- 돈 -->
+    <p id="Money" class="wrapper margin hud-prefix"></p>
+  </div>
+
+  <!-- 검색대 -->
+  <form action="https://www.google.com/search" method="GET">
+    <div class=" input-group mb-3 mx-auto mt-5">
+      <input name="q" type="text" class="form-control center" placeholder="여기서 더 공부하고 와!!" autocomplete="off">
+    </div>
+  </form>
+
+  <!-- 버튼 -->
+  <div class="center">
+    <a class="btn" href="/HTML/quiz_local.html">Local_Q</a>
+    <a class="btn" href="/HTML/quiz_global.html">Golobal_Q</a>
+    <a class="btn" href="/HTML/highscores.html">누가 짱이야!</a>
+    <a class="btn" href="https://toss.me/snowfield/100">100원 좋아!</a>
+  </div>
+
+  <script src="/JS/Clock.js"></script>
+  <script src="/JS/Money.js"></script>
+
+  <!-- 게시글 -->
+  <div id="disqus_thread"></div>
+  <script>
+    (function () { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://snowfield.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+
+  <!-- 구글 애드센스 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2521369037964043"
+    crossorigin="anonymous"></script>
+
+  <!-- 카카오 애드핏 -->
+  <ins class="kakao_ad_area cmtext_ad" style="display:none;" data-ad-unit="DAN-eKr3UyRSmh9759Zt" data-ad-width="100%"
+    data-ad-height="50"></ins>
+  <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+  <ins class="kakao_ad_area cmtext_ad" style="display:none;" data-ad-unit="DAN-4KeEwDgj3LbMNAbf" data-ad-width="100%"
+    data-ad-height="100"></ins>
+  <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+  <div class="inline">
+    <ins class="kakao_ad_area cmtext_ad" style="display:none;" data-ad-unit="DAN-uzOdutubHPfcNtwR" data-ad-width="100%"
+      data-ad-height="250"></ins>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-Mnz5x2kIsLqefcNh" data-ad-width="300"
+      data-ad-height="250"></ins>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-Ve1oPNhXXEfkBUSK" data-ad-width="250"
+      data-ad-height="250"></ins>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+  </div>
+</body>
+
+</html>
